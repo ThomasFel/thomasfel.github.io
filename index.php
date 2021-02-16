@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+        <title>Thomas Felix</title>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+        <!-- Vendor CSS -->
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+        <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header id="header">
+
+            <!-- Header -->
+            <div class="d-flex flex-column">
+                <div class="profile">
+                    <img src="assets/img/profile-img.jpg" alt="profile-pic" class="img-fluid rounded-circle">
+                    <h1 class="text-light"><a href="#about">Thomas Felix</a></h1>
+                    <div class="social-links mt-3 text-center">
+                        <a href="https://twitter.com/ThomFel" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+                        <a href="https://github.com/ThomasFel" class="github" target="_blank"><i class="bx bxl-github"></i></a>
+                        <a href="https://www.linkedin.com/in/thomasfelix10/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <!-- Navbar Menu -->
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="#home"><i class="bx bx-home"></i> <span>Home</span></a></li>
+                        <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+                        <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+                        <li><a href="#portfolio"><i class="bx bx-book-content"></i>Portfolio</a></li>
+                        <li><a href="#contact"><i class="bx bx-envelope"></i>Contact</a></li>
+                    </ul>
+                </nav>
+
+                <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+            </div>
+        </header>
+
+        <!-- Home Section -->
+        <section id="home" class="d-flex flex-column justify-content-center align-items-center">
+            <div class="home-container" data-aos="fade-in">
+                <h1>Thomas Felix</h1>
+                <p>Welcome to my <span style="font-weight: bold" class="typed" data-typed-items="page., portfolio."></span></p>
+            </div>
+        </section>
+        
+        <main id="main">
+            
+            <!-- About Section -->
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>About</h2>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4" data-aos="fade-right">
+                            <img src="assets/img/profile-img.JPG" class="img-fluid" alt="profile-pic">
+                        </div>
+                        
+                        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                            <h3>Holla!</h3>
+                            <h2>You can call me <strong style="color: #149ddd">Felix</strong></h2>
+                            <p class="font-italic">
+                                Holla! My name is Thomas Felix. An active undergraduate student from Institut Teknologi Sepuluh Nopember Surabaya majoring in Informatics. I'm interested in programming, focused on web development and data science.
+                            </p>
+                            <p>
+                                I started learning website development since 3<sup>rd</sup> year of high school. However, I had stopped for almost a year while preparing for the final exam and entering college. Then, I just returned around the 2<sup>nd</sup> semester. Now, I have a lot of time to learn website development, especially because of a pandemic like this.
+                            </p>
+                            <p>
+                                I learned a lot through online courses such as Progate, Dicoding, and sometimes took references from Youtube videos.
+                            </p>
+                        </div>
+
+                        <div class="col-lg-12 pt-4 content" data-aos="fade-left">
+                            <p>
+                                With so many things that can be learned, especially in website development, I'm motivated to learn them. I'm' enjoy learning something new and keep improving myself more and more.
+                            </p>
+                            <p>
+                                In this website, I will try to showcase some of the projects I've worked on. Maybe what I share can be of use to you all. Let's learn, work, and collaborate together.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resume Section -->
+            <section id="resume" class="resume">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Resume</h2>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6" data-aos="fade-up">
+                            <h3 class="resume-title">Education</h3>
+                            <div class="resume-item">
+                                <h4>Bachelor's Degree of Informatics Engineering</h4>
+                                <h5>2019 - present</h5>
+                                <p><em>Institut Teknologi Sepuluh Nopember (ITS) Surabaya</em></p>
+                                <p>GPA: 3.50</p>
+                            </div>
+                            <div class="resume-item">
+                                <h4>High School</h4>
+                                <h5>2016 - 2019</h5>
+                                <p><em>SMA Negeri 1 Bojonegoro</em></p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <h3 class="resume-title">Organization Experience</h3>
+                            <div class="resume-item">
+                                <h4>Internship Staff of Internal</h4>
+                                <h5>2020 - 2021</h5>
+                                <p><em>ITS Choir</em></p>
+                            </div>
+                            <div class="resume-item">
+                                <h4>Staff of Secretarial Division</h4>
+                                <h5>2020</h5>
+                                <p><em>Gerigi ITS 2020</em></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="portfolio section-bg">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Portfolio</h2>
+                    </div>
+
+                    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-4 col-md-6 portfolio-item">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/port1 v2.jpg" class="img-fluid" alt="portfolio-1">
+                                
+                                <div class="portfolio-links" title="My CV">
+                                    <a href="assets/img/port1.jpg" data-gall="portfolioGallery" class="venobox" title="My CV"><i class="bx bx-plus"></i></a>
+                                    <a href="https://github.com/ThomasFel/CurriculumVitae" target="_blank" title="Visit My CV"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/port2 v2.png" class="img-fluid" alt="portfolio-2">
+                                
+                                <div class="portfolio-links" title="Enigma Soft">
+                                    <a href="assets/img/port2.png" data-gall="portfolioGallery" class="venobox" title="Enigma Soft"><i class="bx bx-plus"></i></a>
+                                    <a href="https://github.com/ThomasFel/Wordpress" target="_blank" title="Visit Enigma Soft"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/port3 v2.png" class="img-fluid" alt="portfolio-3">
+                                
+                                <div class="portfolio-links" title="My Class DB">
+                                    <a href="assets/img/port3.png" data-gall="portfolioGallery" class="venobox" title="My Class DB"><i class="bx bx-plus"></i></a>
+                                    <a href="https://github.com/ThomasFel/CRUDLogin" target="_blank" title="Visit My Class DB"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/port4 v2.png" class="img-fluid" alt="portfolio-4">
+                                
+                                <div class="portfolio-links" title="Online Discussion Forum">
+                                    <a href="assets/img/port4.png" data-gall="portfolioGallery" class="venobox" title="Online Discussion Forum"><i class="bx bx-plus"></i></a>
+                                    <a href="https://github.com/ThomasFel/Laravel" target="_blank" title="Visit Online Discussion Forum"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Contact</h2>
+                    </div>
+                    
+                    <div data-aos="fade-in">
+                        <iframe width="95%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Bojonegoro,%20East%20Java+(Bojonegoro)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                    </div>
+                    
+                    <div class="row" data-aos="fade-in">
+                        <div class="col-lg-5 d-flex align-items-stretch">
+                            <div class="info">
+                                <div class="address">
+                                    <i class="icofont-google-map"></i>
+                                    <h4>Location:</h4>
+                                    <p>Bojonegoro, East Java, Indonesia</p>
+                                </div>
+
+                                <div class="email">
+                                    <i class="icofont-envelope"></i>
+                                    <h4>Email:</h4>
+                                    <p><a href="mailto:thomasfelixbrilliant@gmail.com">thomasfelixbrilliant@gmail.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="container">
+                <div class="copyright">
+                    &copy; <strong><span>Thomas Felix</span></strong> 2021
+                </div>
+            </div>
+        </footer>
+
+        <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+        <!-- Vendor JS Files -->
+        <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script src="assets/vendor/jquery/jquery.min.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+        <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+        <script src="assets/vendor/counterup/counterup.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/venobox/venobox.min.js"></script>
+        <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+        <script src="assets/vendor/typed.js/typed.min.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

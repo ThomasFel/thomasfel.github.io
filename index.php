@@ -27,7 +27,7 @@
             <!-- Header -->
             <div class="d-flex flex-column">
                 <div class="profile">
-                    <img src="assets/img/profile-img.jpg" alt="profile-pic" class="img-fluid rounded-circle">
+                    <img src="assets/img/profile-img.JPG" alt="profile-pic" class="img-fluid rounded-circle">
                     <h1 class="text-light"><a href="#about">Thomas Felix</a></h1>
                     <div class="social-links mt-3 text-center">
                         <a href="https://twitter.com/ThomFel" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>

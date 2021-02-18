@@ -358,6 +358,46 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+
+.skills .proglang span {
+    display: inline-block;
+    background: #e4edf9;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 30px;
+    border-radius: 50%;
+    text-align: center;
+    width: 85px;
+    height: 85px;
+    transition: 0.5s;
+}
+
+.skills .proglang span:hover {
+    background: #149ddd;
+    color: #000;
+    text-decoration: none;
+}
+
+.skills .proglang img {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 0;
+    width: 60%;
+    max-width: 200px;
+}
+
+.skills .proglang h4 {
+    padding: 18px 0 0 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+}
+
+/*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
 
@@ -629,11 +669,12 @@ section {
     left: 0;
     bottom: 0;
     width: 280px;
-    z-index: 9999;
+    z-index: 9997;
     background: #143a70;
 }
 
 #footer .copyright {
+    margin-right: 20px;
     text-align: center;
 }
 
